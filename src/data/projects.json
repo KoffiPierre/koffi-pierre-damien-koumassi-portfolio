@@ -1,0 +1,145 @@
+[
+  {
+    "id": "smart-safe-city",
+    "title": {
+      "fr": "Smart Safe City",
+      "en": "Smart Safe City"
+    },
+    "description": {
+      "fr": "Système de sécurité urbaine intelligente avec détection d'incidents par Deep Learning",
+      "en": "Intelligent urban security system with Deep Learning incident detection"
+    },
+    "longDescription": {
+      "fr": "Développement de modèles de deep learning pour la détection automatique d'incidents urbains (violence, incendies, accidents). Fine-tuning de modèles pré-entraînés avec intégration temps réel de capteurs IoT via MQTT et Node-RED. Système d'alertes mobile pour intervention rapide des autorités.",
+      "en": "Development of deep learning models for automatic detection of urban incidents (violence, fires, accidents). Fine-tuning of pre-trained models with real-time IoT sensor integration via MQTT and Node-RED. Mobile alert system for rapid response by authorities."
+    },
+    "technologies": ["TensorFlow", "PyTorch", "Computer Vision", "IoT", "MQTT", "Node-RED", "Python", "OpenCV"],
+    "category": "ai",
+    "image": "/images/projects/smart-safe-city.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Précision du modèle", "en": "Model Accuracy" },
+        "value": "80%"
+      },
+      {
+        "label": { "fr": "Temps de réponse", "en": "Response Time" },
+        "value": "< 30s"
+      }
+    ],
+    "date": "2024-12",
+    "featured": true
+  },
+  {
+    "id": "trading-robot",
+    "title": {
+      "fr": "Robot Trader Automatisé",
+      "en": "Automated Trading Robot"
+    },
+    "description": {
+      "fr": "Robot de trading automatisé avec Deep Learning pour l'analyse et l'exécution de stratégies financières",
+      "en": "Automated trading robot with Deep Learning for financial strategy analysis and execution"
+    },
+    "longDescription": {
+      "fr": "Développement d'un robot trader utilisant Python, MT5 et des techniques de Deep Learning pour analyser les marchés financiers et exécuter des stratégies de trading automatiquement. Création d'interfaces interactives avec Streamlit pour le suivi en temps réel des performances, backtesting et optimisation des paramètres.",
+      "en": "Development of a trading robot using Python, MT5 and Deep Learning techniques to analyze financial markets and execute trading strategies automatically. Creation of interactive interfaces with Streamlit for real-time performance monitoring, backtesting and parameter optimization."
+    },
+    "technologies": ["Python", "Deep Learning", "MT5", "Streamlit", "Pandas", "NumPy", "TensorFlow"],
+    "category": "ai",
+    "image": "/images/projects/trading-robot.jpg",
+    "video": "/videos/trading-demo.mp4",
+    "metrics": [
+      {
+        "label": { "fr": "Stratégies testées", "en": "Strategies tested" },
+        "value": "5+"
+      },
+      {
+        "label": { "fr": "Backtesting", "en": "Backtesting" },
+        "value": "2 years"
+      }
+    ],
+    "date": "2025-03",
+    "featured": true
+  },
+  {
+    "id": "attendance-system",
+    "title": {
+      "fr": "Système de Gestion de Présence Intelligent",
+      "en": "Intelligent Attendance Management System"
+    },
+    "description": {
+      "fr": "Système de reconnaissance faciale pour gestion automatique de présence avec interface temps réel",
+      "en": "Facial recognition system for automatic attendance management with real-time interface"
+    },
+    "longDescription": {
+      "fr": "Développement d'un système complet de reconnaissance faciale pour la gestion automatisée de présence. Implémentation d'algorithmes de détection et reconnaissance avec une précision de 95%. Interface Streamlit pour visualisation en temps réel et génération de rapports. Traitement optimisé pour plus de 1000 détections par jour.",
+      "en": "Development of a complete facial recognition system for automated attendance management. Implementation of detection and recognition algorithms with 95% accuracy. Streamlit interface for real-time visualization and report generation. Optimized processing for over 1000 detections per day."
+    },
+    "technologies": ["Python", "OpenCV", "Face Recognition", "Streamlit", "Machine Learning", "Pandas"],
+    "category": "ai",
+    "image": "/images/projects/attendance-system.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Précision", "en": "Accuracy" },
+        "value": "90%"
+      },
+      {
+        "label": { "fr": "Détections/jour", "en": "Detections/day" },
+        "value": "64+"
+      }
+    ],
+    "date": "2024-09",
+    "featured": true
+  },
+  {
+    "id": "linkpro",
+    "title": {
+      "fr": "LinkPro - Plateforme de Recrutement",
+      "en": "LinkPro - Recruitment Platform"
+    },
+    "description": {
+      "fr": "Plateforme complète de gestion d'offres d'emploi et stages avec système de filtrage avancé",
+      "en": "Complete platform for job and internship offer management with advanced filtering system"
+    },
+    "longDescription": {
+      "fr": "Développement d'une plateforme web moderne de recrutement permettant aux entreprises de publier des offres et aux candidats de postuler facilement. Interface responsive avec React et Tailwind CSS, système de filtrage multi-critères, tableau de bord personnalisé pour chaque type d'utilisateur. Gestion de plus de 500 offres avec 200+ utilisateurs actifs.",
+      "en": "Development of a modern web recruitment platform allowing companies to post offers and candidates to apply easily. Responsive interface with React and Tailwind CSS, multi-criteria filtering system, personalized dashboard for each user type. Managing 500+ offers with 200+ active users."
+    },
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "REST API", "Responsive Design"],
+    "category": "web",
+    "image": "/images/projects/linkpro.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Offres gérées", "en": "Managed offers" },
+        "value": "-50"
+      }
+    ],
+    "date": "2024-06",
+    "featured": false
+  },
+  {
+    "id": "chat-app",
+    "title": {
+      "fr": "Chat APP - Messagerie Instantanée",
+      "en": "Chat APP - Instant Messaging"
+    },
+    "description": {
+      "fr": "Application de messagerie temps réel avec architecture scalable et notifications push",
+      "en": "Real-time messaging application with scalable architecture and push notifications"
+    },
+    "longDescription": {
+      "fr": "Application de messagerie instantanée développée avec Angular et Laravel. Fonctionnalités incluant chat en temps réel, authentification sécurisée, gestion des conversations, notifications push. Architecture scalable supportant 100+ utilisateurs simultanés avec interface utilisateur intuitive et responsive.",
+      "en": "Instant messaging application developed with Angular and Laravel. Features including real-time chat, secure authentication, conversation management, push notifications. Scalable architecture supporting 100+ simultaneous users with intuitive and responsive user interface."
+    },
+    "technologies": ["Angular", "Laravel", "WebSocket", "PHP", "MySQL", "REST API"],
+    "category": "fullstack",
+    "image": "/images/projects/chat-app.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Messagerie Instantanée", "en": "Instant Messaging" },
+        "value": "Websocket"
+      }
+    ],
+    "date": "2024-03",
+    "featured": false
+  }
+]

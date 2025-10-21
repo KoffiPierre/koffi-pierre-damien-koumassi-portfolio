@@ -1,0 +1,89 @@
+[
+  {
+    "id": "trading-robot-pfa",
+    "title": {
+      "fr": "Stagiaire Développement Robot Trader",
+      "en": "Trading Robot Development Intern"
+    },
+    "company": "JAAG Advisory",
+    "location": "Casablanca, Maroc",
+    "period": {
+      "start": "2025-07",
+      "end": "2025-09"
+    },
+    "description": [
+      {
+        "fr": "Développement d'un robot trader automatisé avec Python, MT5 et Deep Learning pour l'analyse et l'exécution de stratégies financières",
+        "en": "Development of an automated trading robot using Python, MT5, and Deep Learning for financial strategy analysis and execution"
+      },
+      {
+        "fr": "Création d'interfaces interactives et de dashboards avec React pour le suivi en temps réel des performances et résultats",
+        "en": "Creation of interactive interfaces and dashboards with React for real-time monitoring of performance and results"
+      },
+      {
+        "fr": "Implémentation d'algorithmes de Machine Learning pour la prédiction de tendances et l'optimisation de stratégies",
+        "en": "Implementation of Machine Learning algorithms for trend prediction and strategy optimization"
+      }
+    ],
+    "technologies": ["Python", "Deep Learning", "MT5", "React", "Pandas", "NumPy", "TensorFlow"],
+    "type": "pfa"
+  },
+  {
+    "id": "afrismart",
+    "title": {
+      "fr": "Développeur Full-Stack",
+      "en": "Full-Stack Developer"
+    },
+    "company": "Enterprise Afrismart Consulting SARL",
+    "location": "Casablanca, Maroc",
+    "period": {
+      "start": "2024-07",
+      "end": "2024-09"
+    },
+    "description": [
+      {
+        "fr": "Conception et développement d'une plateforme de mise en relation étudiants-institutions éducatives",
+        "en": "Design and development of a platform connecting students with educational institutions"
+      },
+      {
+        "fr": "Gestion complète du cycle de développement : analyse des besoins, architecture, développement et déploiement",
+        "en": "Complete development cycle management: needs analysis, architecture, development and deployment"
+      },
+      {
+        "fr": "Optimisation de l'expérience utilisateur et des performances de la plateforme",
+        "en": "Optimization of user experience and platform performance"
+      }
+    ],
+    "technologies": ["Bootstrap", "Laravel", "PHP", "MySQL", "REST API"],
+    "type": "internship"
+  },
+  {
+    "id": "bsk-leader",
+    "title": {
+      "fr": "Formateur Pédagogique",
+      "en": "Educational Trainer"
+    },
+    "company": "BSK Leader",
+    "location": "Ouagadougou, Burkina Faso",
+    "period": {
+      "start": "2021-01",
+      "end": "2021-07"
+    },
+    "description": [
+      {
+        "fr": "Formation et accompagnement d'élèves pour la préparation aux examens et concours",
+        "en": "Training and mentoring students for exam and competition preparation"
+      },
+      {
+        "fr": "Développement de méthodes pédagogiques personnalisées selon les profils d'apprentissage",
+        "en": "Development of personalized teaching methods according to learning profiles"
+      },
+      {
+        "fr": "Suivi individualisé des progrès et adaptation des stratégies d'enseignement",
+        "en": "Individual progress monitoring and adaptation of teaching strategies"
+      }
+    ],
+    "technologies": [],
+    "type": "training"
+  }
+]

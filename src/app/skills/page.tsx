@@ -174,54 +174,98 @@ export default function SkillsPage() {
           centered
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {/* Cert 1 */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <Card>
+            <Card className="h-full">
               <CardBody>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-2xl">📜</span>
+                    <span className="text-2xl">🗄️</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-neutral-900 mb-2">
-                      {language === 'fr' ? 'Pédagogie Certifiée' : 'Certified Pedagogy'}
+                    <span className="inline-block px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded mb-2">
+                      {language === 'fr' ? 'Obtenue' : 'Completed'}
+                    </span>
+                    <h3 className="text-base font-bold text-neutral-900 mb-1">
+                      Data Engineering SQL
                     </h3>
-                    <p className="text-sm text-neutral-600">
-                      {language === 'fr' 
-                        ? 'Formation professionnelle à l\'enseignement' 
-                        : 'Professional teaching training'}
-                    </p>
+                    <p className="text-xs text-primary-600 font-medium mb-2">Beginner</p>
+                    <ul className="space-y-1 text-xs text-neutral-600">
+                      <li>• PostgreSQL — requêtes avancées & indexation</li>
+                      <li>• Snowflake — Cloud Data Warehouse</li>
+                      <li>• ETL design & data pipeline best practices</li>
+                      <li>• Data warehousing & modélisation dimensionnelle</li>
+                    </ul>
                   </div>
                 </div>
               </CardBody>
             </Card>
           </motion.div>
 
+          {/* Cert 2 */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <Card>
+            <Card className="h-full">
               <CardBody>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-accent-cyan/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-2xl">🎓</span>
+                    <span className="text-2xl">🐍</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-neutral-900 mb-2">
-                      {language === 'fr' ? 'Workshops Techniques' : 'Technical Workshops'}
+                    <span className="inline-block px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs font-medium rounded mb-2">
+                      {language === 'fr' ? 'En cours' : 'In Progress'}
+                    </span>
+                    <h3 className="text-base font-bold text-neutral-900 mb-1">
+                      Data Engineering Python
                     </h3>
-                    <p className="text-sm text-neutral-600">
-                      {language === 'fr' 
-                        ? 'Participation régulière aux événements tech et conférences IA' 
-                        : 'Regular participation in tech events and AI conferences'}
-                    </p>
+                    <p className="text-xs text-primary-600 font-medium mb-2">Intermediate</p>
+                    <ul className="space-y-1 text-xs text-neutral-600">
+                      <li>• Python avancé pour Data Engineering</li>
+                      <li>• Apache Airflow — DAGs & scheduling</li>
+                      <li>• Pipeline automation & monitoring</li>
+                      <li>• Git workflows & code review</li>
+                    </ul>
+                  </div>
+                </div>
+              </CardBody>
+            </Card>
+          </motion.div>
+
+          {/* Cert 3 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+          >
+            <Card className="h-full">
+              <CardBody>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-indigo/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl">📜</span>
+                  </div>
+                  <div>
+                    <span className="inline-block px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded mb-2">
+                      {language === 'fr' ? 'Obtenue' : 'Completed'}
+                    </span>
+                    <h3 className="text-base font-bold text-neutral-900 mb-1">
+                      {language === 'fr' ? 'Pédagogie Certifiée' : 'Certified Pedagogy'}
+                    </h3>
+                    <p className="text-xs text-primary-600 font-medium mb-2">BSK Leader · 2021</p>
+                    <ul className="space-y-1 text-xs text-neutral-600">
+                      <li>• {language === 'fr' ? 'Formation professionnelle à l\'enseignement' : 'Professional teaching training'}</li>
+                      <li>• {language === 'fr' ? 'Méthodes pédagogiques adaptatives' : 'Adaptive teaching methods'}</li>
+                      <li>• {language === 'fr' ? 'Taux de réussite amélioré de +25%' : 'Student success rate improved +25%'}</li>
+                    </ul>
                   </div>
                 </div>
               </CardBody>

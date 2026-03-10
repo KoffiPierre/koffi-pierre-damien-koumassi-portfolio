@@ -22,9 +22,9 @@ export default function ProjectsPage() {
   const categories = [
     { id: 'all', label: { fr: 'Tous', en: 'All' } },
     { id: 'ai', label: { fr: 'Intelligence Artificielle', en: 'Artificial Intelligence' } },
+    { id: 'data', label: { fr: 'Data Engineering', en: 'Data Engineering' } },
     { id: 'web', label: { fr: 'Web', en: 'Web' } },
     { id: 'fullstack', label: { fr: 'Full-Stack', en: 'Full-Stack' } },
-    { id: 'mobile', label: { fr: 'Mobile', en: 'Mobile' } },
   ];
 
   const filteredProjects = selectedCategory === 'all' 
@@ -43,8 +43,8 @@ export default function ProjectsPage() {
           <SectionTitle
             title={language === 'fr' ? 'Mes Projets' : 'My Projects'}
             subtitle={language === 'fr' 
-              ? 'Une collection de mes réalisations en IA, développement web et mobile' 
-              : 'A collection of my achievements in AI, web and mobile development'}
+              ? 'Réalisations en IA, Data Engineering et développement Full-Stack' 
+              : 'Projects in AI, Data Engineering and Full-Stack development'}
             centered
           />
         </motion.div>
@@ -219,8 +219,8 @@ export default function ProjectsPage() {
           {[
             { value: projects.length, label: { fr: 'Projets totaux', en: 'Total Projects' } },
             { value: projects.filter(p => p.category === 'ai').length, label: { fr: 'Projets IA', en: 'AI Projects' } },
-            { value: projects.filter(p => p.featured).length, label: { fr: 'Projets vedettes', en: 'Featured Projects' } },
-            { value: '10+', label: { fr: 'Technologies', en: 'Technologies' } },
+            { value: projects.filter(p => p.category === 'data').length, label: { fr: 'Projets Data', en: 'Data Projects' } },
+            { value: '20+', label: { fr: 'Technologies', en: 'Technologies' } },
           ].map((stat, index) => (
             <motion.div
               key={index}

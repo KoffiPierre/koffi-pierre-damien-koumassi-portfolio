@@ -11,26 +11,26 @@ export default function QuickStats() {
   const stats = [
     {
       icon: FaBrain,
-      value: '5+',
-      label: { fr: 'Projets IA', en: 'AI Projects' },
+      value: '75%',
+      label: { fr: 'Précision ML max', en: 'Top ML Accuracy' },
       color: 'from-primary-500 to-primary-600',
     },
     {
       icon: FaCode,
-      value: '10+',
+      value: '20+',
       label: { fr: 'Technologies', en: 'Technologies' },
       color: 'from-accent-cyan to-accent-sky',
     },
     {
       icon: FaProjectDiagram,
-      value: '3+',
-      label: { fr: 'Expériences', en: 'Experiences' },
+      value: '6+',
+      label: { fr: 'Projets livrés', en: 'Shipped Projects' },
       color: 'from-accent-indigo to-primary-600',
     },
     {
       icon: FaAward,
-      value: '85%',
-      label: { fr: 'Précision ML', en: 'ML Accuracy' },
+      value: '3+',
+      label: { fr: 'Ans d\'expérience', en: 'Years of Experience' },
       color: 'from-green-500 to-green-600',
     },
   ];

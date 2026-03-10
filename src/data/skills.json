@@ -6,14 +6,31 @@
       "en": "Artificial Intelligence & Data Science"
     },
     "skills": [
-      { "id": "ml", "name": "Machine Learning", "category": "ai", "level": 80 },
-      { "id": "dl", "name": "Deep Learning", "category": "ai", "level": 80 },
-      { "id": "cv", "name": "Computer Vision", "category": "ai", "level": 50 },
-      { "id": "tensorflow", "name": "TensorFlow", "category": "ai", "level": 70 },
-      { "id": "pytorch", "name": "PyTorch", "category": "ai", "level": 70 },
-      { "id": "sklearn", "name": "Scikit-learn", "category": "ai", "level": 80 },
+      { "id": "ml", "name": "Machine Learning", "category": "ai", "level": 85 },
+      { "id": "dl", "name": "Deep Learning", "category": "ai", "level": 85 },
+      { "id": "cv", "name": "Computer Vision", "category": "ai", "level": 80 },
+      { "id": "tensorflow", "name": "TensorFlow", "category": "ai", "level": 80 },
+      { "id": "pytorch", "name": "PyTorch", "category": "ai", "level": 80 },
+      { "id": "sklearn", "name": "Scikit-learn", "category": "ai", "level": 85 },
       { "id": "pandas", "name": "Pandas", "category": "ai", "level": 90 },
-      { "id": "numpy", "name": "NumPy", "category": "ai", "level": 90 }
+      { "id": "numpy", "name": "NumPy", "category": "ai", "level": 90 },
+      { "id": "river", "name": "River", "category": "ai", "level": 70 }
+    ]
+  },
+  {
+    "id": "data-engineering",
+    "name": {
+      "fr": "Data Engineering & Analytics",
+      "en": "Data Engineering & Analytics"
+    },
+    "skills": [
+      { "id": "airflow", "name": "Apache Airflow", "category": "data-eng", "level": 75 },
+      { "id": "etl", "name": "ETL Pipelines", "category": "data-eng", "level": 80 },
+      { "id": "snowflake", "name": "Snowflake", "category": "data-eng", "level": 75 },
+      { "id": "postgresql", "name": "PostgreSQL", "category": "data-eng", "level": 85 },
+      { "id": "data-quality", "name": "Data Quality", "category": "data-eng", "level": 80 },
+      { "id": "powerbi", "name": "Power BI", "category": "analytics", "level": 80 },
+      { "id": "streamlit", "name": "Streamlit", "category": "analytics", "level": 85 }
     ]
   },
   {
@@ -23,14 +40,14 @@
       "en": "Web & Mobile Development"
     },
     "skills": [
-      { "id": "react", "name": "React", "category": "web", "level": 80 },
-      { "id": "nextjs", "name": "Next.js", "category": "web", "level": 60 },
+      { "id": "react", "name": "React", "category": "web", "level": 85 },
+      { "id": "nextjs", "name": "Next.js", "category": "web", "level": 70 },
       { "id": "angular", "name": "Angular", "category": "web", "level": 75 },
       { "id": "laravel", "name": "Laravel", "category": "web", "level": 80 },
-      { "id": "tailwind", "name": "Tailwind CSS", "category": "web", "level": 80 },
-      { "id": "javascript", "name": "JavaScript", "category": "web", "level": 80 },
-      { "id": "typescript", "name": "TypeScript", "category": "web", "level": 70 },
-      { "id": "flutter", "name": "Flutter", "category": "mobile", "level": 60 }
+      { "id": "tailwind", "name": "Tailwind CSS", "category": "web", "level": 85 },
+      { "id": "javascript", "name": "JavaScript", "category": "web", "level": 85 },
+      { "id": "typescript", "name": "TypeScript", "category": "web", "level": 75 },
+      { "id": "flutter", "name": "Flutter", "category": "mobile", "level": 65 }
     ]
   },
   {
@@ -42,10 +59,12 @@
     "skills": [
       { "id": "python", "name": "Python", "category": "backend", "level": 90 },
       { "id": "php", "name": "PHP", "category": "backend", "level": 80 },
-      { "id": "java", "name": "Java", "category": "backend", "level": 80 },
+      { "id": "java", "name": "Java", "category": "backend", "level": 75 },
+      { "id": "fastapi", "name": "FastAPI", "category": "backend", "level": 80 },
       { "id": "mysql", "name": "MySQL", "category": "db", "level": 85 },
       { "id": "mongodb", "name": "MongoDB", "category": "db", "level": 70 },
-      { "id": "oracle", "name": "Oracle", "category": "db", "level": 70 }
+      { "id": "oracle", "name": "Oracle", "category": "db", "level": 70 },
+      { "id": "sql", "name": "SQL", "category": "db", "level": 90 }
     ]
   },
   {
@@ -55,10 +74,9 @@
       "en": "Tools & Technologies"
     },
     "skills": [
-      { "id": "git", "name": "Git", "category": "tools", "level": 80 },
-      { "id": "streamlit", "name": "Streamlit", "category": "tools", "level": 80 },
-      { "id": "powerbi", "name": "Power BI", "category": "tools", "level": 80 },
-      { "id": "node-red", "name": "Node-RED", "category": "iot", "level": 80 },
+      { "id": "git", "name": "Git", "category": "tools", "level": 85 },
+      { "id": "docker", "name": "Docker", "category": "tools", "level": 70 },
+      { "id": "node-red", "name": "Node-RED", "category": "iot", "level": 75 },
       { "id": "mqtt", "name": "MQTT", "category": "iot", "level": 80 }
     ]
   }

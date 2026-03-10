@@ -16,9 +16,9 @@ export default function ExperiencePage() {
   const experiences = experiencesData as Experience[];
 
   const typeLabels = {
-    pfa: { fr: 'Stage pfa', en: 'Final Year Internship' },
+    pfa: { fr: 'Mission IA/ML', en: 'AI/ML Mission' },
     fulltime: { fr: 'CDI', en: 'Full-time' },
-    internship: { fr: 'Stage', en: 'Internship' },
+    internship: { fr: 'Mission', en: 'Mission' },
     training: { fr: 'Formation', en: 'Training' },
   };
 

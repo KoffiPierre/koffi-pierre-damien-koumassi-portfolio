@@ -81,8 +81,8 @@ export default function ContactPage() {
           <SectionTitle
             title={language === 'fr' ? 'Contactez-moi' : 'Contact Me'}
             subtitle={language === 'fr' 
-              ? 'N\'hésitez pas à me contacter pour toute opportunité ou collaboration' 
-              : 'Feel free to contact me for any opportunity or collaboration'}
+              ? 'Une idée de projet, une opportunité ou simplement échanger — je suis disponible.' 
+              : 'A project idea, an opportunity, or just a chat — I\'m available.'}
             centered
           />
         </motion.div>
@@ -304,19 +304,19 @@ export default function ContactPage() {
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-neutral-600">
                       {language === 'fr' 
-                        ? 'Disponible pour opportunités' 
-                        : 'Available for opportunities'}
+                        ? 'Ouvert aux opportunités' 
+                        : 'Open to opportunities'}
                     </span>
                   </div>
                   <p className="text-neutral-600">
                     {language === 'fr' 
-                      ? 'Recherche un stage PFE dans le domaine de l\'IA' 
-                      : 'Looking for a final year internship in AI'}
+                      ? 'AI Engineering · Data Engineering · Full-Stack' 
+                      : 'AI Engineering · Data Engineering · Full-Stack'}
                   </p>
                   <p className="text-neutral-500 text-xs">
                     {language === 'fr' 
-                      ? 'Temps de réponse: < 24h' 
-                      : 'Response time: < 24h'}
+                      ? 'Réponse sous 24h' 
+                      : 'Response within 24h'}
                   </p>
                 </div>
               </CardBody>

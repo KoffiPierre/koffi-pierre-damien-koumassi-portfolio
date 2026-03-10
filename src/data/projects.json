@@ -1,5 +1,35 @@
 [
   {
+    "id": "data-prep-platform",
+    "title": {
+      "fr": "Plateforme de Data Preparation Bancaire",
+      "en": "Banking Data Preparation Platform"
+    },
+    "description": {
+      "fr": "Plateforme de préparation de données pour institutions financières avec pipelines ETL automatisés",
+      "en": "Data preparation platform for financial institutions with automated ETL pipelines"
+    },
+    "longDescription": {
+      "fr": "Conception et développement d'une plateforme complète de Data Preparation pour le secteur bancaire virtuel. Implémentation de pipelines ETL avec Airflow pour ingestion automatisée, transformation et validation de données financières. Processus de nettoyage, normalisation et enrichissement conformes aux normes réglementaires. Architecture optimisée avec PostgreSQL et Snowflake pour traitement de volumes massifs de transactions.",
+      "en": "Design and development of a complete Data Preparation platform for the virtual banking sector. Implementation of ETL pipelines with Airflow for automated ingestion, transformation and validation of financial data. Cleaning, normalization and enrichment processes compliant with regulatory standards. Optimized architecture with PostgreSQL and Snowflake for processing massive transaction volumes."
+    },
+    "technologies": ["Python", "PostgreSQL", "Snowflake", "Airflow", "Pandas", "SQL", "ETL", "Data Validation", "Data Quality"],
+    "category": "data",
+    "image": "/images/projects/data-prep-platform.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Pipelines ETL", "en": "ETL Pipelines" },
+        "value": "10+"
+      },
+      {
+        "label": { "fr": "Volume de données", "en": "Data Volume" },
+        "value": "TB scale"
+      }
+    ],
+    "date": "2025-10",
+    "featured": true
+  },
+  {
     "id": "smart-safe-city",
     "title": {
       "fr": "Smart Safe City",
@@ -10,20 +40,20 @@
       "en": "Intelligent urban security system with Deep Learning incident detection"
     },
     "longDescription": {
-      "fr": "Développement de modèles de deep learning pour la détection automatique d'incidents urbains (violence, incendies, accidents). Fine-tuning de modèles pré-entraînés avec intégration temps réel de capteurs IoT via MQTT et Node-RED. Système d'alertes mobile pour intervention rapide des autorités.",
-      "en": "Development of deep learning models for automatic detection of urban incidents (violence, fires, accidents). Fine-tuning of pre-trained models with real-time IoT sensor integration via MQTT and Node-RED. Mobile alert system for rapid response by authorities."
+      "fr": "Développement de modèles de deep learning pour la détection automatique d'incidents urbains (violence, incendies, accidents). Fine-tuning de modèles pré-entraînés (YOLO v5, ResNet-50) avec intégration temps réel de capteurs IoT via MQTT et Node-RED. Système d'alertes mobile pour intervention rapide des autorités. Précision de 92% sur dataset de test avec optimisation continue.",
+      "en": "Development of deep learning models for automatic detection of urban incidents (violence, fires, accidents). Fine-tuning of pre-trained models (YOLO v5, ResNet-50) with real-time IoT sensor integration via MQTT and Node-RED. Mobile alert system for rapid response by authorities. 92% accuracy on test dataset with continuous optimization."
     },
-    "technologies": ["TensorFlow", "PyTorch", "Computer Vision", "IoT", "MQTT", "Node-RED", "Python", "OpenCV"],
+    "technologies": ["TensorFlow", "PyTorch", "Computer Vision", "IoT", "MQTT", "Node-RED", "Python", "OpenCV", "YOLO", "ResNet"],
     "category": "ai",
     "image": "/images/projects/smart-safe-city.jpg",
     "metrics": [
       {
         "label": { "fr": "Précision du modèle", "en": "Model Accuracy" },
-        "value": "80%"
+        "value": "72%"
       },
       {
         "label": { "fr": "Temps de réponse", "en": "Response Time" },
-        "value": "< 30s"
+        "value": "< 10s"
       }
     ],
     "date": "2024-12",
@@ -40,24 +70,20 @@
       "en": "Automated trading robot with Deep Learning for financial strategy analysis and execution"
     },
     "longDescription": {
-      "fr": "Développement d'un robot trader utilisant Python, MT5 et des techniques de Deep Learning pour analyser les marchés financiers et exécuter des stratégies de trading automatiquement. Création d'interfaces interactives avec Streamlit pour le suivi en temps réel des performances, backtesting et optimisation des paramètres.",
-      "en": "Development of a trading robot using Python, MT5 and Deep Learning techniques to analyze financial markets and execute trading strategies automatically. Creation of interactive interfaces with Streamlit for real-time performance monitoring, backtesting and parameter optimization."
+      "fr": "Développement d'un robot trader utilisant Python, MT5 et des techniques de Deep Learning (LSTM, GRU) pour analyser les marchés financiers et exécuter des stratégies de trading automatiquement. Implémentation d'Online Learning avec River pour adaptation temps réel. Création d'interfaces interactives avec React pour le suivi en temps réel des performances, backtesting et optimisation des paramètres.",
+      "en": "Development of a trading robot using Python, MT5 and Deep Learning techniques (LSTM, GRU) to analyze financial markets and execute trading strategies automatically. Implementation of Online Learning with River for real-time adaptation. Creation of interactive interfaces with React for real-time performance monitoring, backtesting and parameter optimization."
     },
-    "technologies": ["Python", "Deep Learning", "MT5", "Streamlit", "Pandas", "NumPy", "TensorFlow"],
+    "technologies": ["Python", "Deep Learning", "MT5", "React", "River", "Pandas", "NumPy", "TensorFlow", "LSTM", "Time Series"],
     "category": "ai",
     "image": "/images/projects/trading-robot.jpg",
     "video": "/videos/trading-demo.mp4",
     "metrics": [
       {
         "label": { "fr": "Stratégies testées", "en": "Strategies tested" },
-        "value": "5+"
-      },
-      {
-        "label": { "fr": "Backtesting", "en": "Backtesting" },
-        "value": "2 years"
+        "value": "3+"
       }
     ],
-    "date": "2025-03",
+    "date": "2025-08",
     "featured": true
   },
   {
@@ -71,16 +97,16 @@
       "en": "Facial recognition system for automatic attendance management with real-time interface"
     },
     "longDescription": {
-      "fr": "Développement d'un système complet de reconnaissance faciale pour la gestion automatisée de présence. Implémentation d'algorithmes de détection et reconnaissance avec une précision de 95%. Interface Streamlit pour visualisation en temps réel et génération de rapports. Traitement optimisé pour plus de 1000 détections par jour.",
-      "en": "Development of a complete facial recognition system for automated attendance management. Implementation of detection and recognition algorithms with 95% accuracy. Streamlit interface for real-time visualization and report generation. Optimized processing for over 1000 detections per day."
+      "fr": "Développement d'un système complet de reconnaissance faciale pour la gestion automatisée de présence. Implémentation d'algorithmes de détection et reconnaissance avec une précision de 95%. Interface Streamlit pour visualisation en temps réel et génération de rapports. Traitement optimisé pour plus de 1000 détections par jour avec pipeline ML complet.",
+      "en": "Development of a complete facial recognition system for automated attendance management. Implementation of detection and recognition algorithms with 95% accuracy. Streamlit interface for real-time visualization and report generation. Optimized processing for over 1000 detections per day with complete ML pipeline."
     },
-    "technologies": ["Python", "OpenCV", "Face Recognition", "Streamlit", "Machine Learning", "Pandas"],
+    "technologies": ["Python", "OpenCV", "Face Recognition", "Streamlit", "Machine Learning", "Pandas", "Computer Vision"],
     "category": "ai",
     "image": "/images/projects/attendance-system.jpg",
     "metrics": [
       {
         "label": { "fr": "Précision", "en": "Accuracy" },
-        "value": "90%"
+        "value": "85%"
       },
       {
         "label": { "fr": "Détections/jour", "en": "Detections/day" },
@@ -101,8 +127,8 @@
       "en": "Complete platform for job and internship offer management with advanced filtering system"
     },
     "longDescription": {
-      "fr": "Développement d'une plateforme web moderne de recrutement permettant aux entreprises de publier des offres et aux candidats de postuler facilement. Interface responsive avec React et Tailwind CSS, système de filtrage multi-critères, tableau de bord personnalisé pour chaque type d'utilisateur. Gestion de plus de 500 offres avec 200+ utilisateurs actifs.",
-      "en": "Development of a modern web recruitment platform allowing companies to post offers and candidates to apply easily. Responsive interface with React and Tailwind CSS, multi-criteria filtering system, personalized dashboard for each user type. Managing 500+ offers with 200+ active users."
+      "fr": "Développement d'une plateforme web moderne de recrutement permettant aux entreprises de publier des offres et aux candidats de postuler facilement. Interface responsive avec React et Tailwind CSS, système de filtrage multi-critères, tableau de bord personnalisé pour chaque type d'utilisateur. Gestion de plus de 500 offres avec 200+ utilisateurs actifs. Architecture scalable avec optimisation des performances.",
+      "en": "Development of a modern web recruitment platform allowing companies to post offers and candidates to apply easily. Responsive interface with React and Tailwind CSS, multi-criteria filtering system, personalized dashboard for each user type. Managing 500+ offers with 200+ active users. Scalable architecture with performance optimization."
     },
     "technologies": ["React", "Tailwind CSS", "JavaScript", "REST API", "Responsive Design"],
     "category": "web",
@@ -110,7 +136,11 @@
     "metrics": [
       {
         "label": { "fr": "Offres gérées", "en": "Managed offers" },
-        "value": "-50"
+        "value": "-"
+      },
+      {
+        "label": { "fr": "Utilisateurs actifs", "en": "Active users" },
+        "value": "-"
       }
     ],
     "date": "2024-06",
@@ -127,19 +157,53 @@
       "en": "Real-time messaging application with scalable architecture and push notifications"
     },
     "longDescription": {
-      "fr": "Application de messagerie instantanée développée avec Angular et Laravel. Fonctionnalités incluant chat en temps réel, authentification sécurisée, gestion des conversations, notifications push. Architecture scalable supportant 100+ utilisateurs simultanés avec interface utilisateur intuitive et responsive.",
-      "en": "Instant messaging application developed with Angular and Laravel. Features including real-time chat, secure authentication, conversation management, push notifications. Scalable architecture supporting 100+ simultaneous users with intuitive and responsive user interface."
+      "fr": "Application de messagerie instantanée développée avec Angular et Laravel. Fonctionnalités incluant chat en temps réel via WebSocket, authentification sécurisée JWT, gestion des conversations, notifications push. Architecture scalable supportant 100+ utilisateurs simultanés avec interface utilisateur intuitive et responsive. Optimisation des performances et sécurité des communications.",
+      "en": "Instant messaging application developed with Angular and Laravel. Features including real-time chat via WebSocket, secure JWT authentication, conversation management, push notifications. Scalable architecture supporting 100+ simultaneous users with intuitive and responsive user interface. Performance optimization and communication security."
     },
-    "technologies": ["Angular", "Laravel", "WebSocket", "PHP", "MySQL", "REST API"],
+    "technologies": ["Angular", "Laravel", "WebSocket", "PHP", "MySQL", "REST API", "JWT"],
     "category": "fullstack",
     "image": "/images/projects/chat-app.jpg",
     "metrics": [
       {
-        "label": { "fr": "Messagerie Instantanée", "en": "Instant Messaging" },
-        "value": "Websocket"
+        "label": { "fr": "Utilisateurs simultanés", "en": "Simultaneous users" },
+        "value": "-"
+      },
+      {
+        "label": { "fr": "Messagerie temps réel", "en": "Real-time messaging" },
+        "value": "WebSocket"
       }
     ],
     "date": "2024-03",
+    "featured": false
+  },
+  {
+    "id": "microservices-java",
+    "title": {
+      "fr": "Plateforme Microservices Java",
+      "en": "Java Microservices Platform"
+    },
+    "description": {
+      "fr": "Architecture microservices distribuée avec Spring Boot, communication inter-services via gRPC et pipeline qualité SonarQube",
+      "en": "Distributed microservices architecture with Spring Boot, inter-service communication via gRPC, and SonarQube quality pipeline"
+    },
+    "longDescription": {
+      "fr": "Conception et développement d'une plateforme microservices en Java avec Spring Boot. Chaque service est découplé, conteneurisé via Docker et communique avec les autres via gRPC pour des échanges performants et typés. Mise en place d'un pipeline de qualité logicielle avec SonarQube pour l'analyse statique du code, la détection de code smells et le suivi de la couverture de tests. Architecture orientée scalabilité et maintenabilité.",
+      "en": "Design and development of a Java microservices platform with Spring Boot. Each service is decoupled, containerized with Docker, and communicates with others via gRPC for performant, typed exchanges. Implementation of a software quality pipeline with SonarQube for static code analysis, code smell detection, and test coverage tracking. Architecture oriented toward scalability and maintainability."
+    },
+    "technologies": ["Java", "Spring Boot", "gRPC", "Docker", "SonarQube", "REST API", "Microservices"],
+    "category": "fullstack",
+    "image": "/images/projects/microservices-java.jpg",
+    "metrics": [
+      {
+        "label": { "fr": "Architecture", "en": "Architecture" },
+        "value": "Microservices"
+      },
+      {
+        "label": { "fr": "Qualité code", "en": "Code Quality" },
+        "value": "SonarQube"
+      }
+    ],
+    "date": "2024-05",
     "featured": false
   }
 ]

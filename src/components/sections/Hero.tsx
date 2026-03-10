@@ -106,10 +106,10 @@ export default function Hero() {
               className="flex flex-wrap gap-3 mb-8"
             >
               <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-lg font-medium">
-                Machine Learning
+                AI / ML Engineering
               </span>
               <span className="px-4 py-2 bg-accent-cyan/10 text-accent-cyan rounded-lg font-medium">
-                Deep Learning
+                Data Engineering
               </span>
               <span className="px-4 py-2 bg-accent-indigo/10 text-accent-indigo rounded-lg font-medium">
                 Full-Stack
@@ -186,7 +186,9 @@ export default function Hero() {
               <div className="relative w-full aspect-square rounded-2xl bg-gradient-to-br from-primary-500 to-accent-cyan overflow-hidden shadow-2xl">
                 {/* Ta photo ici */}
                 <Image 
-                    src="/images/profile.jpg" 
+                    src="/images/profile.png"
+                    width={400}
+                    height={400}
                     alt={siteConfig.name}
                     className="w-full h-full object-cover"
                 />
@@ -202,13 +204,13 @@ export default function Hero() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
-                      <span className="text-2xl">🎓</span>
+                      <span className="text-2xl">⚡</span>
                     </div>
                     <div>
                       <p className="text-sm text-neutral-600">
-                        {language === 'fr' ? 'Étudiant' : 'Student'}
+                        {language === 'fr' ? 'Data Engineer' : 'Data Engineer'}
                       </p>
-                      <p className="font-semibold text-neutral-900">ENSAM</p>
+                      <p className="font-semibold text-neutral-900">@ Mwinda</p>
                     </div>
                   </div>
                 </motion.div>
@@ -225,9 +227,9 @@ export default function Hero() {
                     </div>
                     <div>
                       <p className="text-sm text-neutral-600">
-                        {language === 'fr' ? 'Projets' : 'Projects'}
+                        {language === 'fr' ? 'Projets IA' : 'AI Projects'}
                       </p>
-                      <p className="font-semibold text-neutral-900">5+</p>
+                      <p className="font-semibold text-neutral-900">6+</p>
                     </div>
                   </div>
                 </motion.div>

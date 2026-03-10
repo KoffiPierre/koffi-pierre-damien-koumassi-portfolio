@@ -1,9 +1,42 @@
 [
   {
+    "id": "mwinda-data-engineer",
+    "title": {
+      "fr": "Data Engineer",
+      "en": "Data Engineer"
+    },
+    "company": "Mwinda Service",
+    "location": "Casablanca, Maroc",
+    "period": {
+      "start": "2026-02",
+      "end": "present"
+    },
+    "description": [
+      {
+        "fr": "Conception d'une architecture de Data Preparation pour traitement de données financières à grande échelle dans un contexte de banque virtuelle",
+        "en": "Designed a Data Preparation architecture for large-scale financial data processing in a virtual banking context"
+      },
+      {
+        "fr": "Développement de pipelines ETL automatisés avec Airflow et Python pour ingestion, transformation et validation de données bancaires — conformes aux standards réglementaires",
+        "en": "Built automated ETL pipelines with Airflow and Python for ingestion, transformation and validation of banking data — compliant with regulatory standards"
+      },
+      {
+        "fr": "Optimisation des performances de traitement pour volumes massifs de transactions avec PostgreSQL et Snowflake ; création de dashboards de monitoring de la qualité des données",
+        "en": "Optimized processing performance for massive transaction volumes with PostgreSQL and Snowflake; built data quality monitoring dashboards"
+      },
+      {
+        "fr": "Collaboration avec les équipes métier pour définir les règles de gouvernance et documenter les processus de data lineage",
+        "en": "Collaborated with business teams to define governance rules and document data lineage processes"
+      }
+    ],
+    "technologies": ["Python", "PostgreSQL", "Snowflake", "Airflow", "Pandas", "ETL", "SQL", "Data Validation"],
+    "type": "internship"
+  },
+  {
     "id": "trading-robot-pfa",
     "title": {
-      "fr": "Stagiaire Développement Robot Trader",
-      "en": "Trading Robot Development Intern"
+      "fr": "Développeur IA/ML — Robot Trader",
+      "en": "AI/ML Developer — Trading Robot"
     },
     "company": "JAAG Advisory",
     "location": "Casablanca, Maroc",
@@ -13,8 +46,8 @@
     },
     "description": [
       {
-        "fr": "Développement d'un robot trader automatisé avec Python, MT5 et Deep Learning pour l'analyse et l'exécution de stratégies financières",
-        "en": "Development of an automated trading robot using Python, MT5, and Deep Learning for financial strategy analysis and execution"
+        "fr": "Développement d'un robot trader automatisé avec Python, MT5 et Online Learning pour l'analyse et l'exécution de stratégies financières",
+        "en": "Development of an automated trading robot using Python, MT5, and Online Learning for financial strategy analysis and execution"
       },
       {
         "fr": "Création d'interfaces interactives et de dashboards avec React pour le suivi en temps réel des performances et résultats",
@@ -25,7 +58,7 @@
         "en": "Implementation of Machine Learning algorithms for trend prediction and strategy optimization"
       }
     ],
-    "technologies": ["Python", "Deep Learning", "MT5", "React", "Pandas", "NumPy", "TensorFlow"],
+    "technologies": ["Python", "Deep Learning", "MT5", "React", "Pandas", "NumPy", "TensorFlow", "River"],
     "type": "pfa"
   },
   {
@@ -42,19 +75,15 @@
     },
     "description": [
       {
-        "fr": "Conception et développement d'une plateforme de mise en relation étudiants-institutions éducatives",
-        "en": "Design and development of a platform connecting students with educational institutions"
+        "fr": "Conception et développement complet d'une plateforme de matching étudiants-institutions éducatives — architecture full-stack React + Laravel + MySQL",
+        "en": "Full design and development of a student-educational institution matching platform — React + Laravel + MySQL full-stack architecture"
       },
       {
-        "fr": "Gestion complète du cycle de développement : analyse des besoins, architecture, développement et déploiement",
-        "en": "Complete development cycle management: needs analysis, architecture, development and deployment"
-      },
-      {
-        "fr": "Optimisation de l'expérience utilisateur et des performances de la plateforme",
-        "en": "Optimization of user experience and platform performance"
+        "fr": "Gestion d'offres éducatives et d'utilisateurs actifs, filtres avancés et tableaux de bord personnalisés",
+        "en": "Managed educational offers and active users with, advanced filters, and personalized dashboards"
       }
     ],
-    "technologies": ["Bootstrap", "Laravel", "PHP", "MySQL", "REST API"],
+    "technologies": ["React", "Laravel", "MySQL", "PHP", "JavaScript", "Tailwind CSS", "RESTful API"],
     "type": "internship"
   },
   {

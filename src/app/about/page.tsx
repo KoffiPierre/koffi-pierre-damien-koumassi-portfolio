@@ -22,7 +22,7 @@ export default function AboutPage() {
       },
       institution: "École Nationale Supérieure d'Arts et Métiers (ENSAM)",
       location: "Casablanca, Maroc",
-      period: "Septembre 2023 - Juillet 2025",
+      period: "Octobre 2021 - Juillet 2026",
       current: true,
     },
     {
@@ -32,7 +32,7 @@ export default function AboutPage() {
       },
       institution: "École Nationale Supérieure d'Arts et Métiers (ENSAM)",
       location: "Casablanca, Maroc",
-      period: "Septembre 2021 - Juillet 2023",
+      period: "Octobre 2021 - Juillet 2023",
       current: false,
     },
   ];
@@ -76,8 +76,8 @@ export default function AboutPage() {
           <SectionTitle
             title={language === 'fr' ? 'À propos de moi' : 'About Me'}
             subtitle={language === 'fr' 
-              ? 'Découvrez mon parcours et mes motivations' 
-              : 'Discover my journey and motivations'}
+              ? 'Ingénieur IA & Data Engineer — parcours, projets, valeurs' 
+              : 'AI & Data Engineer — background, projects, values'}
             centered
           />
         </motion.div>
@@ -98,8 +98,10 @@ export default function AboutPage() {
                 {/* Photo */}
                 <div className="w-full aspect-square rounded-xl bg-gradient-to-br from-primary-500 to-accent-cyan overflow-hidden mb-6">
                   <Image 
-                    src="/images/profile.jpg" 
+                    src="/images/profile.png" 
                     alt={siteConfig.name}
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -149,23 +151,18 @@ export default function AboutPage() {
               <div className="prose prose-lg text-neutral-600 space-y-4">
                 <p>
                   {language === 'fr' 
-                    ? "Étudiant en 3ème année du cycle d'ingénieur en Intelligence Artificielle à l'ENSAM Casablanca, je suis passionné par le développement d'applications intelligentes qui résolvent des problèmes concrets."
-                    : "3nd-year Artificial Intelligence Engineering student at ENSAM Casablanca, I am passionate about developing intelligent applications that solve real-world problems."}
+                    ? "Ingénieur en Intelligence Artificielle & Génie Informatique (ENSAM Casablanca), je conçois des systèmes intelligents et des pipelines de données qui opèrent en production — de la détection d'incidents urbains en temps réel aux plateformes de préparation de données bancaires."
+                    : "AI & Computer Engineering graduate (ENSAM Casablanca), I design intelligent systems and data pipelines that operate in production — from real-time urban incident detection to banking data preparation platforms."}
                 </p>
                 <p>
                   {language === 'fr'
-                    ? "Mon parcours m'a permis de développer une expertise solide en Machine Learning, Deep Learning et Développement Logiciel, que j'ai appliquée à des projets variés allant de la sécurité urbaine intelligente aux systèmes de trading automatisés."
-                    : "My journey has allowed me to develop solid expertise in Machine Learning, Deep Learning and Software Development, which I have applied to various projects ranging from intelligent urban security to automated trading systems."}
+                    ? "En poste comme Data Engineer chez Mwinda Service, je développe des pipelines ETL pour des institutions financières avec PostgreSQL, Snowflake et Apache Airflow. Mes projets en Deep Learning (YOLO, LSTM, GRU) atteignent 75–85% de précision sur des cas d'usage concrets."
+                    : "Currently working as a Data Engineer at Mwinda Service, I build ETL pipelines for financial institutions using PostgreSQL, Snowflake, and Apache Airflow. My Deep Learning projects (YOLO, LSTM, GRU) reach 75–85% accuracy on real-world use cases."}
                 </p>
                 <p>
                   {language === 'fr'
-                    ? "En tant que développeur Full-Stack, je maîtrise également les technologies web modernes (React, Angular, Laravel) ce qui me permet de créer des solutions complètes de bout en bout."
-                    : "As a Full-Stack developer, I also master modern web technologies (React, Angular, Laravel) which allows me to create complete end-to-end solutions."}
-                </p>
-                <p>
-                  {language === 'fr'
-                    ? "Je recherche actuellement un stage PFE dans le domaine de l'IA et de l'ingénieurie logicielle pour contribuer à des projets d'envergure tout en enrichissant mon expertise technique."
-                    : "I am currently looking for a final year internship in the AI field to contribute to large-scale projects while enriching my technical expertise."}
+                    ? "Développeur Full-Stack expérimenté (React, Angular, Laravel, FastAPI), j'ai livré des applications complètes avec des centaines d'utilisateurs actifs. Mon approche : des architectures solides, du code maintenable, et des résultats mesurables."
+                    : "Experienced Full-Stack developer (React, Angular, Laravel, FastAPI), I have shipped complete applications with hundreds of active users. My approach: solid architectures, maintainable code, and measurable outcomes."}
                 </p>
               </div>
             </div>

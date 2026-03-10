@@ -14,7 +14,7 @@ export interface Project {
   description: LocalizedText;
   longDescription: LocalizedText;
   technologies: string[];
-  category: 'ai' | 'web' | 'mobile' | 'iot' | 'fullstack';
+  category: 'ai' | 'web' | 'mobile' | 'iot' | 'fullstack' | 'data';
   image: string;
   images?: string[];
   video?: string;
